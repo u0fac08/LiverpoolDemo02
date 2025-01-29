@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1738084843749" createdUser="Mark"
     id="5cb6a4e4:194ade8de35:-7ec3"
-    selfDescribing="HTTPTransport - http localhost:9080"
-    type="http_transport" updatedTimestamp="1738084863064"
+    selfDescribing="HTTPTransport - http 192.168.91.135:9080"
+    type="http_transport" updatedTimestamp="1738157037131"
     updatedUser="Mark" version="1.0">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig transportName="HTTPTransport" transportTemplateName="HTTP">
         <messageProperties
             ReasonPhrase="No Stub available that matches the request"
             clientConnectionsPerHost="100" credDomain=""
-            credPassword="#com.ghc.1!2762" credPreemptive="false"
-            credType="0" credUser="" httpHost="localhost"
+            credPassword="#com.ghc.1!3a2c" credPreemptive="false"
+            credType="0" credUser="" httpHost="192.168.91.135"
             httpNtlmDomain="" httpPort="9080" httpProxyHost=""
-            httpProxyPassword="#com.ghc.1!ba5b" httpProxyPort=""
+            httpProxyPassword="#com.ghc.1!17af" httpProxyPort=""
             httpProxyUsername="" httpResourceRoot=""
             httpServerSocketBindAddressOverride=""
             httpServerSocketPortOverride="" httpSocketTimeout=""
@@ -21,7 +21,7 @@
             useSsl="false" version="4">
             <kerberos Anon="false" Conf="false" Custom="true"
                 Enabled="false" Integ="false" KDC="" Loc=""
-                MutAuth="false" Principal="" Pwd="#com.ghc.1!b801"
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!2434"
                 Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
             <oauth authURL="" clientassertion="" clientid=""
                 clientsecret="" enabled="false"
